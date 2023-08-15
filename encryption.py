@@ -13,12 +13,14 @@ def derive_key(password, salt):
         length=32
     )
     return kdf.derive(password.encode())
-
+    
 def encrypt_file(filename, password):
     salt = b'salt_123'
     key = derive_key(password, salt)
 
-    cipher = Cipher(algorithms.AES(key), modes.CFB8(salt), backend=default_backend())
+    iv = b'initialization_v'  
+
+    cipher = Cipher(algorithms.AES(key), modes.CFB8(iv), backend=default_backend())
     encryptor = cipher.encryptor()
 
     with open(filename, 'rb') as file:
