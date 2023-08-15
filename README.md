@@ -7,11 +7,11 @@ Tento skript umožňuje šifrovat soubory pomocí symetrického šifrování AES
 1. Nejdříve si stáhněte tento skript a umístěte ho do adresáře, kde máte soubory, které chcete šifrovat.
 2. Otevřete příkazový řádek a přejděte do adresáře kde máte skript uložen.
 
-      ```cd cesta/k/adresari```
+```cd cesta/k/adresari```
    
 Spusťte skript pomocí následujícího příkazu:
 
-      ```python nazev_skriptu.py```
+```python nazev_skriptu.py```
 
 Skript vás vyzve, abyste zadali název souboru, který chcete zašifrovat, a heslo pro šifrování.
 
@@ -21,7 +21,7 @@ Po zadání názvu souboru a hesla skript provede šifrování obsahu souboru a 
 
 Tento skript využívá knihovnu cryptography, kterou můžete nainstalovat pomocí následujícího příkazu:
 
-      ```pip install cryptography```
+```pip install cryptography```
 
 ### Důležité Upozornění
 
