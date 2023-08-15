@@ -6,6 +6,7 @@ Tento skript umožňuje šifrovat soubory pomocí symetrického šifrování AES
 
 1. Nejdříve si stáhněte tento skript a umístěte ho do adresáře, kde máte soubory, které chcete šifrovat.
 2. Otevřete příkazový řádek a přejděte do adresáře kde máte skript uložen.
+
       ```cd cesta/k/adresari```
    
 Spusťte skript pomocí následujícího příkazu:
