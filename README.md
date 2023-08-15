@@ -32,3 +32,5 @@ Tento skript je pouze ukázkovým příkladem šifrování dat. Skutečná ochra
 Tento skript je poskytován pod licencí MIT. Více informací najdete v souboru LICENSE.
 
 Prosím, dejte pozor na to, že tato ukázka README souboru by měla být dále upravena tak, aby lépe 
+
+### pozn: decryption.py zvrati efekt encryption.py pro desifrovani dat
